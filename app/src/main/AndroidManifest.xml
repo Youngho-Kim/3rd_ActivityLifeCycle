@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".NormalActivity" />
+        <activity android:name=".TransActivity"
+            android:theme="@style/Theme.AppCompat.Translucent"></activity>
     </application>
 
 </manifest>
